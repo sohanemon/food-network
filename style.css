@@ -4,6 +4,9 @@
   --man: "Manrope", sans-serif;
   --mon: "Montserrat", sans-serif;
 }
+body {
+  margin: 0;
+}
 .hero {
   font-family: var(--man);
   height: 100vh;
@@ -59,7 +62,8 @@
   /* height: calc(100vh - 200px); */
   width: 50%;
 }
-.about {
+.about,
+.my-recipies {
   margin: 50px 7%;
   border-radius: 20px;
   background-image: url(./img/shapes/Frame\ 58.jpg);
@@ -126,6 +130,7 @@
 
   color: #18191f;
 }
+
 .my-recipies p {
   font-family: var(--mon);
   font-size: 18px;
@@ -160,9 +165,19 @@
   line-height: 26px;
   color: #18191f;
 }
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+}
 footer span {
   color: var(--primary-color);
 }
 footer h1 {
   color: var(--secondary-color);
+  font-family: var(--mon);
+}
+footer p {
+  color: rgb(182, 159, 159);
+  font-family: var(--man);
 }
