@@ -15,7 +15,6 @@
 .hero div,
 .about div {
   width: 50%;
-  width: 100%;
 }
 .hero h1 {
   font-weight: 900;
@@ -57,12 +56,14 @@
 }
 .about img {
   padding-top: 30px;
-  height: calc(100vh - 50px);
-  width: 60%;
+  /* height: calc(100vh - 200px); */
+  width: 50%;
 }
 .about {
-  margin: 50px 0;
-  background-image: url(./img/shapes/);
+  margin: 50px 7%;
+  border-radius: 20px;
+  background-image: url(./img/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
   font-family: var(--mon);
   display: flex;
   justify-content: center;
@@ -76,4 +77,14 @@
 }
 .about p {
   margin: 30px 0 80px;
+}
+.my-recipies > div {
+  display: flex;
+}
+.my-recipies > div div {
+  width: 50%;
+}
+.my-recipies img {
+  height: 100%;
+  width: 100%;
 }
