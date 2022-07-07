@@ -62,8 +62,7 @@ body {
   /* height: calc(100vh - 200px); */
   width: 50%;
 }
-.about,
-.my-recipies {
+.about {
   margin: 50px 7%;
   border-radius: 20px;
   background-image: url(./img/shapes/Frame\ 58.jpg);
@@ -83,6 +82,8 @@ body {
   margin: 30px 0 80px;
 }
 .my-recipies {
+  font-family: var(--mon);
+
   margin: 0;
   padding: 7%;
   display: flex;
@@ -93,6 +94,7 @@ body {
 .my-recipies > div {
   display: flex;
   padding: 30px;
+  gap: 10%;
   justify-content: center;
 }
 .my-recipies > div div {
@@ -122,12 +124,6 @@ body {
   font-family: var(--mon);
   font-size: 28px;
   line-height: 40px;
-  /* identical to box height, or 143% */
-
-  font-feature-settings: "liga" off;
-
-  /* Text / Gray 900 */
-
   color: #18191f;
 }
 
